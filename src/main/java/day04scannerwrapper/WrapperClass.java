@@ -20,9 +20,46 @@ public class WrapperClass {
         byte p = 33;
         Byte r = 44;
 
-        //Örnek: Short data type'ının minimum ve maximum değerlerini kod yazarak bulunuz
+        //Örnek 1: Short data type'ının minimum ve maximum değerlerini kod yazarak bulunuz
         short maxShort = Short.MAX_VALUE;
         short minShort = Short.MIN_VALUE;
+
+        // ornek 2; int data typenin min degeri ile byte data typenin max degerleri toplamini bulunuz.
+
+        int minInteger = Integer.MIN_VALUE;
+
+        byte maxByte = Byte.MAX_VALUE;
+
+        System.out.println( minInteger+maxByte);
+
+        //ornek 3: Primitive int i wrapper Integer a ceviriniz. (once bir pirimitive data aldik sonra Wrapper claas dan
+        //Integer a cevirdik buna AutoBoxing denir.(primitivi Wrapper a cevriemeye denir)
+
+        int num = 19;
+        Integer wrapperNam = num;
+
+        //ornek 4: Wrapper Byte primitive byte ceviriniz. ( Wrapper  i tekrar primitive cevirmeye UnBoxing denir)
+
+        Byte k = 19;
+
+        byte primitiveK = k;
+
+
+        // ornek5: Primitive char i wrapper Character e ceviriniz.(AutoBoxing)
+
+        char initial = 'T';
+
+        Character initalWrapper = initial;
+
+
+
+        // Wrapper Boolen e primitive boolean a cevir.(UNBoxing)
+        Boolean yasliMi= true;
+
+        boolean isOld = yasliMi;
+
+
+
 
 
     }

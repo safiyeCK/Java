@@ -61,7 +61,7 @@ public class MethodCreation01 {
     // ornek 3- verilen 3 sayidan 3. sayi ile sonucu toplayan metodu olustur ve kullan
 
     public static long carpTopla (int a, int b, int c) {
-        return a*b+c;
+        return (a*b)+c;
     }
 
     // ornek 3- verilen 3 sayidan ilk ikisini carpan ve 3. ye bolen bir method olusturun ve yazdirin.

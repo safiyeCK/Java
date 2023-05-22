@@ -2,7 +2,7 @@ package day04scannerwrapper;
 
 import java.util.Scanner;
 
-public class Scanner05 {
+public class  Scanner05 {
     public static void main(String[] args) {
 
         //Kullanicidan alacaginiz 5 basamakli bir sayinin ilk iki ve
