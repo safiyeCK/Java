@@ -78,6 +78,8 @@ public class Loops02 {
             System.out.println(t.charAt(i));
 
 
+
+
         }
 
 
